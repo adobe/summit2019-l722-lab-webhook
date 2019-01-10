@@ -2,6 +2,8 @@ const express = require('express')
 
 const app = express()
 
+require('dotenv').config()
+
 app.get('/webhook', (req, res) => {
   if (req.query['challenge']) {
     res.send(req.query['challenge'])
