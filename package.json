@@ -6,7 +6,7 @@
   "license": "ASL",
   "scripts": {
     "start": "node webhook.js",
-    "start-simple": "node webhook.js",
+    "start-simple": "node simple.js",
     "clean-private-key": "node clean-private-key.js"
   },
   "dependencies": {
