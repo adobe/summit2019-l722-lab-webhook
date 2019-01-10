@@ -15,7 +15,7 @@ app.get('/webhook', (req, res) => {
 
 app.post('/webhook', (req, res) => {
   res.writeHead(200, { 'Content-Type': 'application/text' })
-  res.end('pong')
+  res.end('pong\n')
 
   console.log('webhook received')
 })
