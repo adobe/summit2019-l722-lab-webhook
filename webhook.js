@@ -2,6 +2,7 @@ const express = require('express')
 const crypto = require('crypto')
 const jsrsasign = require('jsrsasign')
 const fetch = require('node-fetch')
+const bodyParser = require('body-parser')
 
 const { URLSearchParams, URL } = require('url')
 
